@@ -1,0 +1,89 @@
+body{
+    background-color: red;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+.todo-wrapper{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: 15;
+}
+
+.todo-wrapper h2{
+    margin: 0;
+}
+
+.todo-wrapper p{
+    font-size: 15px;
+    color: black;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol{
+    margin: 15px 0;
+}
+
+.todo-wrapper ol li{
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5 ease-out;
+    -webkit-transition: all 0.5 ease-out;
+    -moz-transition: all 0.5 ease-out;
+    -ms-transition: all 0.5 ease-out;
+    -o-transition: all 0.5 ease-out;
+}
+
+.todo-wrapper form{
+    display: inline-block;
+}
+
+.todo-wrapper input{
+    padding: 2px 4px;
+    width: 150px;
+    border-radius: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.todo-wrapper .pretty-button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.todo-wrapper .pretty-button{
+    margin: 10px 2px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 11px;
+}
+
+#control-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+#empty-button {
+    background-color: rgba(242, 62, 62, 0.678);
+}
+
+#save-button {
+    background-color: rgba(45, 213, 45, 0.791) ;
+}
